@@ -1,0 +1,60 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.user-component__photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.user-component__name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.user-component__status {
+  margin-top: 8px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 300;
+}
+
+.user-component__photo--xl {
+  width: 70px;
+  height: 70px;
+  border-radius: 23px;
+}
+
+.user-component__photo--sm {
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+}
+
+.user-component__name--not-bold {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.friends-screen__channel {
+  margin-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+  margin-bottom: 55px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 300;
+  font-size: 13px;
+}

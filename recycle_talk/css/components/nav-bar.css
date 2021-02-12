@@ -1,0 +1,53 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 15px 40px;
+  box-sizing: border-box; /*padding을 해도 width가 늘어나지 않게 하는 문장*/
+  border-top: 1px solid rgba(136, 136, 136, 0.2);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: rgb(36, 36, 44);
+}
+
+.nav__btn {
+  font-size: 12px;
+}
+
+.nav__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  left: 15px;
+  top: -6px;
+}
+
+.nav__dot {
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  left: 25px;
+  top: -10px;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column"> <!--BEM(Block Element Modifier)-->
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:36</span>
+        </div>
+        <div class="status-bar__column">
+            <span>128%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="fas fa-music"></i></span>
+            <span><i class="fas fa-cog"></i></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen">
+
+        <div class="chats-screen__friends">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="http://th4.tmon.kr/thumbs/image/e41/891/aed/9d4949b94_600x600_95_FIT.jpg" class="user-component__photo user-component__photo--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__name user-component__name--not-bold">우유팩</h4>
+                        <h6 class="user-component__status">넌 우리 마음 몰라</h6>
+                    </div>
+                </div>
+                <div class="user-component__column timeBadge">
+                    <span class="user-component__time">17:22</span>
+                    <div class="badge">2</div>
+                </div>
+        
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://images.unsplash.com/photo-1592768639330-35c836260667?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" class="user-component__photo user-component__photo--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__name user-component__name--not-bold">플라방 <span style="color:rgba(0, 0, 0, 0.3); font-size: 15px; padding-left: 3px;">4</span></h4>
+                        <h6 class="user-component__status">나는 나가볼게</h6>
+                    </div>
+                </div>
+                <div class="user-component__column timeBadge">
+                    <span class="user-component__time">16:18</span>
+                    <div class="badge badge-none"></div>
+                </div>
+        
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://img.huffingtonpost.com/asset/5d80950424000012277c0b14.jpeg?ops=1200_630" class="user-component__photo user-component__photo--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__name user-component__name--not-bold">종량제봉투</h4>
+                        <h6 class="user-component__status">난 쓰레기야</h6>
+                    </div>
+                </div>
+                <div class="user-component__column timeBadge">
+                    <span class="user-component__time">15:58</span>
+                    <div class="badge">4</div>
+                </div>
+        
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="http://dmpolyfilm.com/wp-content/uploads/kboard_attached/3/201905/5cef75e00eec22295707-600x338.png" class="user-component__photo user-component__photo--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__name user-component__name--not-bold">컵라면</h4>
+                        <h6 class="user-component__status">직접 해보라니까? ㄹㅇ됨</h6>
+                    </div>
+            </div>
+            <div class="user-component__column timeBadge">
+                <span class="user-component__time">14:02</span>
+                <div class="badge">5</div>
+            </div>
+        
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="http://th4.tmon.kr/thumbs/image/e41/891/aed/9d4949b94_600x600_95_FIT.jpg" class="user-component__photo user-component__photo--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__name user-component__name--not-bold">택배박스, 테이프 <span style="color: rgba(0, 0, 0, 0.3); padding-left: 3px; font-size: 15px;">3</span></h4>
+                        <h6 class="user-component__status">어쨌든 나는 억울해</h6>
+                    </div>
+            </div>
+            <div class="user-component__column timeBadge">
+                <span class="user-component__time">13:48</span>
+                <div class="badge badge-none"></div>
+            </div>
+        
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://mediahub.seoul.go.kr/wp-content/uploads/2019/05/f0059619dcf03de13c7e9512e847047c.jpg" class="user-component__photo user-component__photo--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__name user-component__name--not-bold">해리포타와 비닐의 방 <span style="color: rgba(0, 0, 0, 0.3); font-size: 15px; padding-left: 3px;">7</span></h4>
+                        <h6 class="user-component__status">안녕하세요, 과자봉지입니다. 저는 라면봉지님 소개로 참여하게 됐는데요 저희 과자봉지들은 대개 기름기와 ...</h6>
+                    </div>
+            </div>
+            <div class="user-component__column timeBadge">
+                <span class="user-component__time">12:23</span>
+                <div class="badge">7</div>
+            </div>
+        
+            </div>
+            
+        </div>
+    </main>
+    
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">4</span>
+                <i class="fas fa-comments fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="nav__dot"></span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.size-arrnage {
+  background-color: teal;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  vertical-align: middle;
+}
+.size-arrnage__icon {
+  font-size: 100px;
+  animation: rotateIcon 3s infinite;
+}
+.size-arrnage__title {
+  margin: 20px 0px;
+  font-size: 50px;
+}
+.size-arrnage__sub {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-height: 790px) {
+  .size-arrnage {
+    display: none;
+  }
+}

@@ -26,14 +26,6 @@
 }
 
 .nav__notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  color: white;
   position: absolute;
   left: 15px;
   top: -6px;
@@ -50,4 +42,21 @@
   align-items: center;
   left: 25px;
   top: -10px;
+}
+
+.fa-cog {
+  position: relative;
+}
+
+.head__dot {
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: -4px;
 }

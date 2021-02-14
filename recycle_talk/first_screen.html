@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIZE ALERT!</title>
+    <style>
+        div{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            vertical-align: middle;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(0, 170, 0);
+            text-shadow: 0 2px 10px rgb(0, 170, 0);
+        }
+        i{
+            font-size: 100px;
+            animation: rotateIcon 3s infinite;
+        }
+        h2{
+            margin: 20px 0px;
+            font-size: 50px;
+        }
+        h6{
+            margin: 0px 0px 5px 0px;
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+        .des {
+            font-weight: 300;
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        @keyframes rotateIcon{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        @media screen and (max-height: 790px) and (max-width: 560px){
+            .yet{
+                display: none;
+            }
+        }
+
+        @media screen and (min-height: 790.1px), (min-width: 560.1px){
+            a{
+                pointer-events: none;
+                color: inherit;
+                text-shadow: 0 2px 10px black;
+            }
+            .done,
+            .des {
+                display: none;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="size-arrange">
+        <a href="login.html"><i class="fas fa-recycle"></i></a>
+        <h2>재 활 용 톡</h2> 
+        <h6 class="yet">화면 크기를 조정해주세요!</h6>
+        <h6 class="done">재활용 아이콘을 눌러주세요!</h6>
+        <span class="des">(권장 크기는 560*790 입니다)</span>
+    </div>
+    
+    
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
+</body>
+</html>

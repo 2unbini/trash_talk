@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIND</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column"> <!--BEM(Block Element Modifier)-->
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:36</span>
+        </div>
+        <div class="status-bar__column">
+            <span>128%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-cog"><span class="head__dot"></span></i></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen">
+        <div class="find-screen__func-box">
+            <div class="find-screen__functions">
+                <i class="fas fa-qrcode"></i>
+                <h4>QR Code</h4>
+            </div>
+            <div class="find-screen__functions">
+                <i class="far fa-address-book"></i>
+                <h4>Add by Contacts</h4>
+            </div>
+            <div class="find-screen__functions">
+                <i class="fas fa-recycle"></i>
+                <h4>Recycle wastes</h4>
+            </div>
+            <div class="find-screen__functions">
+                <i class="far fa-envelope"></i>
+                <h4>Invite</h4>
+            </div>
+        </div>
+        <div class="find-screen__recommend">
+            <h6>Recommended Friends</h6>
+            <span>You have no Recommended friends.</span>
+        </div>
+        <div class="find-screen__open-chat">
+            <div class="open-chat__header">
+                <h6>Open Chat</h6>
+                <span>click image to participate<i class="fas fa-chevron-right fa-xs"></i></span>
+            </div>
+            <div class="open-chat__room">
+                <div class="open-chat__column">
+                    <a href="https://www.greenpeace.org/korea/project-plastic/" class="open-chat__name">플라스틱 제로</a>
+                    <span class="open-chat__tags">#용기내 #플라스틱 #그린피스 #해양 #환경보호</span>
+                    <div class="open-chat__infos">
+                        <img src="https://www.greenpeace.org/static/planet4-korea-stateless/2018/05/913c0158-cropped-5b45d6f2-p4_favicon-32x32.png" class="open-chat__userImg">
+                        <span class="open-chat__members">Greenpeace</span>
+                        <span class="open-chat__bar">|</span>
+                        <span class="open-chat__active">Active</span>
+                    </div>
+                    
+                </div>
+                <a href="https://www.greenpeace.org/korea/project-plastic/">
+                    <img src="https://www.greenpeace.org/static/planet4-korea-stateless/2019/07/e4467141-gp0stt3fm_medium_res.jpg" class="open-chat__img">
+                    <div class="open-chat__heart">❤︎ 884</div>
+                </a>
+            </div>
+            <div class="open-chat__room">
+                <div class="open-chat__column">
+                    <a href="https://blisgo.com/" class="open-chat__name">쓰레기 백과사전</a>
+                    <span class="open-chat__tags">#쓰레기 #재활용 #친환경 #검색 #재활용방법</span>
+                    <div class="open-chat__infos">
+                        <img src="https://blisgo.com/wp-content/uploads/2020/07/cropped-favicon-1-32x32.png" class="open-chat__userImg">
+                        <span class="open-chat__members">분리수고</span>
+                        <span class="open-chat__bar">|</span>
+                        <span class="open-chat__active">Active</span>
+                    </div>
+                </div>
+                <a href="https://blisgo.com/">
+                    <img src="https://blisgo.com/wp-content/uploads/2020/08/blisgo_beige.png" class="open-chat__img">
+                    <div class="open-chat__heart">❤︎ 293</div>
+                </a>
+                
+            </div>
+        </div>
+        
+    </main>
+    
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">4</span>
+                <i class="far fa-comments fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search-plus fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="nav__dot"></span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
+</body>
+</html>

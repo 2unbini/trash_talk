@@ -6,7 +6,7 @@
 }
 
 #chat-screen {
-  height: 100vh;
+  height: 150vh;
 }
 
 .main-chat {
@@ -114,6 +114,7 @@
   border-top-left-radius: 0px;
   margin-right: 5px;
   line-height: 140%;
+  max-width: 250px;
 }
 
 .message__time {
@@ -273,4 +274,8 @@
 .reply:focus-within .fa-grin-tongue-wink,
 .reply:focus-within button {
   opacity: 0;
+}
+
+.vinyle-title {
+  font-size: 17px;
 }

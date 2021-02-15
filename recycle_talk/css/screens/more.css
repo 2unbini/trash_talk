@@ -1,0 +1,83 @@
+/*user component*/
+
+.fa-comment-alt {
+  padding-right: 20px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-user {
+  margin-bottom: 25px;
+}
+
+/*functions*/
+
+.more-screen__func-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 35px 20px;
+}
+
+.more-screen__functions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px auto;
+}
+
+.more-screen__functions > i {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.more-screen__functions > h4 {
+  text-align: center;
+}
+
+/*suggest box*/
+
+.more-screen__suggest {
+  height: 250px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+}
+
+.more-screen__suggest > h6 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  text-align: start;
+  margin: 10px 0px;
+}
+
+.more-screen__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-screen__links > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.more-screen__links > a > img {
+  width: 150px;
+  object-fit: contain;
+  margin: 10px 5px;
+}
+
+.more-screen__links > a > span {
+  font-weight: 200;
+  font-size: 15px;
+}

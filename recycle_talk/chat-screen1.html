@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우유팩은 종이가 아니다</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="chat-screen" class="chat-1">
+    <div class="status-bar chat-bar chat-bar-1">
+        <div class="status-bar__column"> <!--BEM(Block Element Modifier)-->
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:36</span>
+        </div>
+        <div class="status-bar__column">
+            <span>128%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header alt-header-chat alt-header-1">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h2 class="alt-header__title">우유팩</h2>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-bars"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            <div>Monday, Feb 15, 2021</div> 
+        </div>
+
+        <div class="message-row row-1">
+            <img src="./image/milk.jpg">
+            <div class="message-row__content">
+                <span class="message__author">우유팩</span>
+                <div class="message__info">
+                    <span class="message__bubble">나를 비롯한 코팅된 종이들은 종이류가 아니야</span>
+                    <span class="message__time">17:10</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own row-own-1">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">응..?</span>
+                    <span class="message__time">17:10</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row row-1">
+            <img src="./image/milk.jpg">
+            <div class="message-row__content">
+                <span class="message__author">우유팩</span>
+                <div class="message__info">
+                    <span class="message__bubble">나는 종이팩이야.</span>
+                    <span class="message__time">17:11</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row row-1">
+            <img src="./image/milk.jpg">
+            <div class="message-row__content">
+                <span class="message__author">우유팩</span>
+                <div class="message__info">
+                    <span class="message__bubble">나를 비롯한 종이컵, 멸균 우유팩 등은 전부<br>종이팩으로 재활용해야해.</span>
+                    <span class="message__time">17:11</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own row-own-1">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">앗 그렇구나!<br>그런데 종이팩을 따로 분류하지 않으면 어떡해?</span>
+                    <span class="message__time">17:12</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row row-1">
+            <img src="./image/milk.jpg">
+            <div class="message-row__content">
+                <span class="message__author">우유팩</span>
+                <div class="message__info">
+                    <span class="message__bubble">종이팩을 따로 모으지 않는 곳에선<br>종이류로 분리수거하면 돼.</span>
+                    <span class="message__time">17:12</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own row-own-1">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">오! 고마워~</span>
+                    <span class="message__time">17:12</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row row-1">
+            <img src="./image/milk.jpg">
+            <div class="message-row__content">
+                <span class="message__author">우유팩</span>
+                <div class="message__info">
+                    <span class="message__bubble">👍</span>
+                    <span class="message__time">17:12</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="write a message">
+            <i class="far fa-grin-tongue-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <i class="fas fa-recycle"></i>
+        <span>화면 크기를 줄여주세요!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
+</body>
+</html>

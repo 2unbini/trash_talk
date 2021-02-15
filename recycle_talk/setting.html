@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIENDS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column"> <!--BEM(Block Element Modifier)-->
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:36</span>
+        </div>
+        <div class="status-bar__column">
+            <span>128%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html"><i class="fas fa-angle-left"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h2 class="alt-header__title">Settings</h2>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__column">
+                    <i class="fas fa-flask"></i>
+                    <span>Waste Lab</span>
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__des">Lastest Version</div>
+            </li>
+        </ul>
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <a href="https://ko.wikipedia.org/wiki/%EC%9E%AC%ED%99%9C%EC%9A%A9" target="_blank">
+                    <div class="settings__column">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>Recycle</span>
+                    </div>
+                </a>
+                <div class="settings__des">Click to read wikipedia</div>
+            </li>
+            <li class="settings__setting">
+                <a href="https://ko.wikipedia.org/wiki/%EC%83%88%ED%99%9C%EC%9A%A9" target="_blank">
+                    <div class="settings__column">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>Upcycle</span>
+                    </div>
+                </a>
+                <div class="settings__des">Click to read wikipedia</div>
+            </li>
+            <li class="settings__setting">
+                <a href="https://www.re.or.kr/recy/viewRecyCenterPage.do" target="_blank">
+                    <div class="settings__column">
+                        <i class="far fa-building"></i>
+                        <span>Centers</span>
+                    </div>
+                </a>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__column">
+                    <i class="far fa-thumbs-up"></i>
+                    <span>Thanks</span>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">18</span>
+                <i class="far fa-comments fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="nav__dot"></span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <i class="fas fa-recycle"></i>
+        <span>화면 크기를 줄여주세요!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
+</body>
+</html>

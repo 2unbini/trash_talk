@@ -6,7 +6,7 @@
     <title>FIND</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="background">
     <div class="status-bar">
         <div class="status-bar__column"> <!--BEM(Block Element Modifier)-->
             <span>No service</span>
@@ -26,7 +26,8 @@
         <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search"></i></span>
-            <span><i class="fas fa-cog"><span class="head__dot"></span></i></span>
+            <span><i class="fas fa-cog"></i></span>
+            <span class="head__dot"></span>
         </div>
     </header>
 
@@ -61,7 +62,7 @@
             </div>
             <div class="open-chat__room">
                 <div class="open-chat__column">
-                    <a href="https://www.greenpeace.org/korea/project-plastic/" class="open-chat__name">플라스틱 제로</a>
+                    <a href="https://www.greenpeace.org/korea/project-plastic/" class="open-chat__name" target="_blank">플라스틱 제로</a>
                     <span class="open-chat__tags">#용기내 #플라스틱 #그린피스 #해양 #환경보호</span>
                     <div class="open-chat__infos">
                         <img src="https://www.greenpeace.org/static/planet4-korea-stateless/2018/05/913c0158-cropped-5b45d6f2-p4_favicon-32x32.png" class="open-chat__userImg">
@@ -71,14 +72,14 @@
                     </div>
                     
                 </div>
-                <a href="https://www.greenpeace.org/korea/project-plastic/">
+                <a href="https://www.greenpeace.org/korea/project-plastic/" target="_blank">
                     <img src="https://www.greenpeace.org/static/planet4-korea-stateless/2019/07/e4467141-gp0stt3fm_medium_res.jpg" class="open-chat__img">
                     <div class="open-chat__heart">❤︎ 884</div>
                 </a>
             </div>
             <div class="open-chat__room">
                 <div class="open-chat__column">
-                    <a href="https://blisgo.com/" class="open-chat__name">쓰레기 백과사전</a>
+                    <a href="https://blisgo.com/" class="open-chat__name" target="_blank">쓰레기 백과사전</a>
                     <span class="open-chat__tags">#쓰레기 #재활용 #친환경 #검색 #재활용방법</span>
                     <div class="open-chat__infos">
                         <img src="https://blisgo.com/wp-content/uploads/2020/07/cropped-favicon-1-32x32.png" class="open-chat__userImg">
@@ -87,7 +88,7 @@
                         <span class="open-chat__active">Active</span>
                     </div>
                 </div>
-                <a href="https://blisgo.com/">
+                <a href="https://blisgo.com/" target="_blank">
                     <img src="https://blisgo.com/wp-content/uploads/2020/08/blisgo_beige.png" class="open-chat__img">
                     <div class="open-chat__heart">❤︎ 293</div>
                 </a>
@@ -103,7 +104,7 @@
         <ul class="nav__list">
             <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
             <li class="nav__btn"><a class="nav__link" href="chats.html">
-                <span class="nav__notification badge">4</span>
+                <span class="nav__notification badge">13</span>
                 <i class="far fa-comments fa-2x"></i></a></li>
             <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search-plus fa-2x"></i></a></li>
             <li class="nav__btn"><a class="nav__link" href="more.html">
@@ -112,6 +113,10 @@
         </ul>
     </nav>
 
+    <div id="no-mobile">
+        <i class="fas fa-recycle"></i>
+        <span>화면 크기를 줄여주세요!</span>
+    </div>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js"
 crossorigin="anonymous"></script>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해리포타와 비닐의 방</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="chat-screen" class="chat-5">
+    <div class="status-bar chat-bar chat-bar-5">
+        <div class="status-bar__column"> <!--BEM(Block Element Modifier)-->
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:36</span>
+        </div>
+        <div class="status-bar__column">
+            <span>128%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header alt-header-chat alt-header-5">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h2 class="alt-header__title">해리포타와 비닐의 방</h2>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-bars"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat ">
+        <div class="chat__timestamp stamp5">
+            <div>라면봉지님이 나를 초대했습니다</div> 
+        </div>
+
+        <div class="message-row">
+            <img src="./image/ramyeon.jpg">
+            <div class="message-row__content">
+                <span class="message__author">라면봉지</span>
+                <div class="message__info">
+                    <span class="message__bubble">다들 자기소개 해주세요~</span>
+                    <span class="message__time">12:13</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">안녕하세요, 비닐류 재활용 정보 얻기 위해 왔습니다.</span>
+                    <span class="message__time">12:13</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/bong.jpg">
+            <div class="message-row__content">
+                <span class="message__author">비닐봉투</span>
+                <div class="message__info">
+                    <span class="message__bubble">비닐봉투예요. 음식물이나 스티커같은 거 깨끗이 제거하면<br>투명, 검정, 색깔있는애들 상관 없이 다 재활용 가능합니다.</span>
+                    <span class="message__time">12:14</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/none.jpg">
+            <div class="message-row__content">
+                <span class="message__author">비닐포장재</span>
+                <div class="message__info">
+                    <span class="message__bubble">안녕하세요, 비닐포장재입니다. 저도 봉투님처럼 깨끗하면<br>재활용 가능하니 많이 이용해주세요^^<br>참고로 빵봉지, 잡지나 노트 포장 비닐 모두 해당됩니다^^*</span>
+                    <span class="message__time">12:16</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/kanu.jpg">
+            <div class="message-row__content">
+                <span class="message__author">믹스</span>
+                <div class="message__info">
+                    <span class="message__bubble">카피믹스요. 나도 씻으면 댑니다. 안씻꺼지면 일반으로 버리새요.</span>
+                    <span class="message__time">12:16</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/wrap.jpg">
+            <div class="message-row__content">
+                <span class="message__author">plastic Wrap</span>
+                <div class="message__info">
+                    <span class="message__bubble">여러분 저는 랩입니다. 저 재활용 되구요, 일쓰(일반쓰레기)로 <br>버리면 안돼요. 저도 순정이 있습니다. 재활용 해주세요.</span>
+                    <span class="message__time">12:18</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/chip.jpg">
+            <div class="message-row__content">
+                <span class="message__author">과자봉지</span>
+                <div class="message__info">
+                    <span class="message__bubble">안녕하세요, 과자봉지입니다. 저는 라면봉지님 소개로 참여하게 됐는데요<br>저희 과자봉지들은대개 기름기와 과자 찌꺼기가 남아있는데, 다른분들처럼 <br>저도 이 것들만 잘 제거하면 재활용될 수 있답니다. 고맙습니다.</span>
+                    <span class="message__time">12:20</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="write a message">
+            <i class="far fa-grin-tongue-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <i class="fas fa-recycle"></i>
+        <span>화면 크기를 줄여주세요!</span>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
+</body>
+</html>

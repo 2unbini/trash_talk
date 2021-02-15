@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORE...</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="background">
+    <div class="status-bar">
+        <div class="status-bar__column"> <!--BEM(Block Element Modifier)-->
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:36</span>
+        </div>
+        <div class="status-bar__column">
+            <span>128%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-music"></i></span>
+            <span><a href="setting.html"><i class="fas fa-cog"></i>
+                <span class="head__dot"></span>
+            </a></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen">
+
+        <div class="user-component more-user">
+            <div class="user-component__column">
+                <a href="https://github.com/2unbini" target="_blank"><img src="./image/me.png" class="user-component__photo user-component__photo--xl"></a>
+                <div class="user-component__text">
+                    <h4 class="user-component__name">나</h4>
+                    <h6 class="user-component__status">+ 199 601 2826</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt"></i>
+            </div>
+        </div>
+
+        <div class="more-screen__func-box">
+            <div class="more-screen__functions">
+                <i class="far fa-calendar-alt"></i>
+                <h4>Calendar</h4>
+            </div>
+            <div class="more-screen__functions">
+                <i class="far fa-smile"></i>
+                <h4>Emoticons</h4>
+            </div>
+            <div class="more-screen__functions">
+                <i class="far fa-trash-alt"></i>
+                <h4>Trash</h4>
+            </div>
+            <div class="more-screen__functions">
+                <i class="fas fa-coins"></i>
+                <h4>Account</h4>
+            </div>
+        </div>
+        <div class="more-screen__suggest">
+            <h6>Upcycling Brands</h6>
+            <div class="more-screen__links">
+                <a href="http://nukak.kr/" target="_blank">
+                    <img src="https://m.nukak.kr/web/upload/editor/blanca/logo_nukak.png">
+                    <span>Nukak</span>
+                </a>
+                <a href="https://pleatsmama.com/" target="_blank">
+                    <img src="https://cdn.imweb.me/thumbnail/20210201/ec15d1bcf6d5d.png">
+                    <span>Pleats Mama</span>
+                </a>
+                <a href="https://www.cueclyp.com/" target="_blank">
+                    <img src="https://contents.sixshop.com/thumbnails/uploadedFiles/117506/default/image_1585722554019_1500.png">
+                    <span>Cueclyp</span>
+                </a>
+            </div>
+            <div class="more-screen__links">
+                <a href="http://milkyproject.com/" target="_blank">
+                    <img src="https://lh3.googleusercontent.com/proxy/79mdmBycVPvYrwRv3BkqgaqBwguRzEZUvnPVWYhVKRRZm5lquPBCzDPnIeVo-imkSn_MlBld3hZYhUX1iZpCl502FxE922D-X2aPe9QFCTtsc1c">
+                    <span>Milky Project</span>
+                </a>
+                <a href="http://xn--zf4bt3b85e.com/" target="_blank">
+                    <img src="http://우시산.com/thema/Basic/assets/img/logo.png">
+                    <span>우시산</span>
+                </a>
+                <a href="http://wecontinew.co.kr/" target="_blank">
+                    <img src="http://m.wecontinew.com/web/continew/continew-earth-b.png">
+                    <span>Continuew</span>
+                </a>
+            </div>
+        </div>
+        
+        
+    </main>
+    
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">13</span>
+                <i class="far fa-comments fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="nav__dot blue"></span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <i class="fas fa-recycle"></i>
+        <span>화면 크기를 줄여주세요!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
+</body>
+</html>

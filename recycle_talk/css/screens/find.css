@@ -132,6 +132,33 @@ img {
   position: relative;
 }
 
+@keyframes heartbeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: palevioletred;
+    transform: scale(1.2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+@keyframes biggerImg {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .open-chat__heart {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -145,4 +172,15 @@ img {
   position: absolute;
   right: 5px;
   bottom: 8px;
+}
+
+.open-chat__heart:hover {
+  will-change: transform;
+  animation: heartbeat 0.5s linear infinite;
+}
+
+.open-chat__name:hover,
+.open-chat__img:hover {
+  will-change: transform;
+  animation: biggerImg 0.5s linear infinite;
 }

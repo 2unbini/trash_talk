@@ -1,7 +1,8 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(228, 228, 228);
+  opacity: 0.2;
   padding: 12px 0px;
   font-size: 15px;
   margin-bottom: 15px;
@@ -9,10 +10,39 @@
 
 #friends-display-link i {
   padding: 0px 5px;
-  color: rgb(206, 206, 206);
+  color: rgb(160, 190, 204);
 }
 
 .friend-screen {
   margin: 0px var(--horizontal-space);
   padding-bottom: 10px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../image/background-2.png");
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1.1s;
+  color: rgba(175, 202, 205, 0.637);
 }

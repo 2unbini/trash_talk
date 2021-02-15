@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>작은 플라스틱은 재활용이 안된다</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="chat-screen" class="chat-2">
+    <div class="status-bar chat-bar chat-bar-2">
+        <div class="status-bar__column"> <!--BEM(Block Element Modifier)-->
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:36</span>
+        </div>
+        <div class="status-bar__column">
+            <span>128%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header alt-header-chat alt-header-2">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h2 class="alt-header__title">플라방</h2>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-bars"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat ">
+        <div class="chat__timestamp">
+            <div>Monday, Feb 15, 2021</div> 
+        </div>
+
+        
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">얘들아! 너희는 다 플라스틱 맞지?</span>
+                    <span class="message__time">17:05</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/straw.jpg">
+            <div class="message-row__content">
+                <span class="message__author">빨대</span>
+                <div class="message__info">
+                    <span class="message__bubble">...나는 재활용이 안돼...</span>
+                    <span class="message__time">17:05</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">너 플라스틱 아니었어..?</span>
+                    <span class="message__time">17:05</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/brush.jpg">
+            <div class="message-row__content">
+                <span class="message__author">칫솔</span>
+                <div class="message__info">
+                    <span class="message__bubble">나도 빨대도 플라스틱은 맞는데 <br>너무 작아서 재활용이 안돼.</span>
+                    <span class="message__time">17:05</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/spoon.jpg">
+            <div class="message-row__content">
+                <span class="message__author">숟가락</span>
+                <div class="message__info">
+                    <span class="message__bubble">사실 나도...</span>
+                    <span class="message__time">17:06</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">이럴수가!</span>
+                    <span class="message__time">17:06</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/straw.jpg">
+            <div class="message-row__content">
+                <span class="message__author">빨대</span>
+                <div class="message__info">
+                    <span class="message__bubble">나랑 볼펜, 칫솔같은 작은 플라스틱류는<br>업체에서 일반쓰레기로 버려져.<br>웬만하면 쓰지 않는 게 좋아..</span>
+                    <span class="message__time">17:12</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="./image/brush.jpg">
+            <div class="message-row__content">
+                <span class="message__author">칫솔</span>
+                <div class="message__info">
+                    <span class="message__bubble">요즘은 대나무 칫솔이나 다회용 빨대<br>많이 파니까 관심 있으면 한번 봐봐!</span>
+                    <span class="message__time">17:18</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="write a message">
+            <i class="far fa-grin-tongue-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <i class="fas fa-recycle"></i>
+        <span>화면 크기를 줄여주세요!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
+</body>
+</html>

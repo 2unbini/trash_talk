@@ -1,0 +1,35 @@
+.settings-list:first-child {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings-list:last-child {
+  margin-top: 20px;
+}
+
+.settings__column {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.settings__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting * {
+  font-size: 22px;
+}
+
+.settings__column > i {
+  margin-right: 12px;
+  width: 30px;
+}
+
+.settings__des {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+}

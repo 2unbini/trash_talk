@@ -6,7 +6,7 @@
 }
 
 #chat-screen {
-  height: 150vh;
+  height: 170vh;
 }
 
 .main-chat {
@@ -160,6 +160,7 @@
   }
 }
 
+.endofchat,
 .message-row {
   animation: fadeIn 1s linear;
   animation-fill-mode: forwards;
@@ -188,6 +189,9 @@
 }
 .message-row:nth-child(9) {
   animation-delay: 10.5s;
+}
+.endofchat {
+  animation-delay: 11s;
 }
 
 /*reply form */
@@ -278,4 +282,10 @@
 
 .vinyle-title {
   font-size: 17px;
+}
+
+.endofchat {
+  font-size: 13px;
+  opacity: 0.5;
+  color: white;
 }

@@ -40,7 +40,7 @@
             <div class="user-component__column">
                 <a href="https://github.com/2unbini" target="_blank"><img src="./image/me.png" class="user-component__photo user-component__photo--xl"></a>
                 <div class="user-component__text">
-                    <h4 class="user-component__name">나</h4>
+                    <h4 class="user-component__name more-userName">나</h4>
                     <h6 class="user-component__status">+ 199 601 2826</h6>
                 </div>
             </div>
@@ -121,6 +121,13 @@
         <i class="fas fa-recycle"></i>
         <span>화면 크기를 줄여주세요!</span>
     </div>
+
+    <script>
+        const name = document.querySelector(".more-userName");
+        const userName = localStorage.getItem("userName");
+        name.innerHTML = userName;
+
+    </script>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js"
 crossorigin="anonymous"></script>

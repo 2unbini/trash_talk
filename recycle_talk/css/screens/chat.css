@@ -5,9 +5,11 @@
   box-sizing: border-box;
 }
 
+/*
 #chat-screen {
   height: 200vh;
 }
+*/
 
 .main-chat {
   display: flex;
@@ -34,53 +36,7 @@
 }
 
 .stamp5 > div {
-  width: 220px;
-}
-
-/*different colors*/
-.chat-1,
-.chat-bar-1,
-.alt-header-1 {
-  background-color: rgb(236, 211, 211);
-}
-.alt-header-1 {
-  opacity: 0.8;
-}
-
-.chat-2,
-.chat-bar-2,
-.alt-header-2 {
-  background-color: rgb(245, 227, 208);
-}
-.alt-header-2 {
-  opacity: 0.8;
-}
-
-.chat-3,
-.chat-bar-3,
-.alt-header-3 {
-  background-color: rgb(224, 230, 198);
-}
-.alt-header-3 {
-  opacity: 0.8;
-}
-
-.chat-4,
-.chat-bar-4,
-.alt-header-4 {
-  background-color: rgb(231, 233, 255);
-}
-.alt-header-4 {
-  opacity: 0.8;
-}
-
-.chat-5,
-.chat-bar-5,
-.alt-header-5 {
-  background-color: rgb(228, 216, 233);
-}
-.alt-header-5 {
-  opacity: 0.8;
+  width: 120%;
 }
 
 /*messages*/
@@ -146,7 +102,7 @@
   flex-direction: row-reverse;
 }
 
-/*message pop*/
+/*message pop
 
 @keyframes fadeIn {
   from {
@@ -193,6 +149,8 @@
 .endofchat {
   animation-delay: 11s;
 }
+
+*/
 
 /*reply form */
 

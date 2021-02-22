@@ -224,7 +224,7 @@
 
 .reply input:focus {
   width: 97vw;
-  transform: translateX(-8.5%);
+  transform: translateX(-9.3%);
 }
 
 .reply .reply__column:first-child,

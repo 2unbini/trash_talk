@@ -7,6 +7,10 @@
   opacity: 0.8;
 }
 
+.alt-header-5 > .alt-header__column:nth-child(2) {
+  width: 50%;
+}
+
 .chat-5 {
   height: 180vh;
 }

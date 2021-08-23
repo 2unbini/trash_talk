@@ -4,8 +4,4 @@ Get recycling infos by chatting with trash.
 Kakao-talk Clone coding project.
 
 <img src="https://user-images.githubusercontent.com/75126613/130450000-7d8b3a04-0795-4ed9-bc46-4c3f2ad8266b.png" width="40%" height="40%">
-![main image](https://user-images.githubusercontent.com/75126613/130450000-7d8b3a04-0795-4ed9-bc46-4c3f2ad8266b.png){: width="40%" height="40%"}
-Main image
-
-![chatting image](https://user-images.githubusercontent.com/75126613/130450013-6945487d-77db-4c70-b204-280023e7958f.png){: width="40%" height="40%"}
-Chatting image
+<img src="https://user-images.githubusercontent.com/75126613/130450013-6945487d-77db-4c70-b204-280023e7958f.png" width="40%" height="40%">

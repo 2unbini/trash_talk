@@ -1,2 +1,6 @@
 # trash_talk
-my very first web project
+
+Get recycling infos by chatting with trash.
+
+![main image][main.png]
+![chatting image][chat.png]
